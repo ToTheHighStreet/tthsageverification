@@ -1,0 +1,5 @@
+{
+    "tableName": "tths-identity",
+    "partitionKeyName": "orderId",
+    "partitionKeyType": "S"
+}

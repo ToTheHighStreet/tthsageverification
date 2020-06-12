@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/identity",
+            "lambdaFunction": "tthsageverification9ed5856c",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "apidcec483f",
+    "apiName": "apidcec483f",
+    "functionArns": [
+        {
+            "lambdaFunction": "tthsageverification9ed5856c"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-tthsageverification-dev-145959-authRole",
+        "unAuthRoleName": "amplify-tthsageverification-dev-145959-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "tthsageverification9ed5856c",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
